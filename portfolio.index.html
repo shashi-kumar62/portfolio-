@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #f4f9ff, #e0f7fa);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #00aaff;
+      color: white;
+      padding: 4rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-style: italic;
+    }
+
+    nav {
+      background: #0077aa;
+      padding: 1rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffee58;
+    }
+
+    section {
+      padding: 3rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      margin-bottom: 1.5rem;
+      color: #0077aa;
+      font-size: 2rem;
+      position: relative;
+    }
+
+    h2::after {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 4px;
+      background: #00aaff;
+      margin-top: 8px;
+      border-radius: 4px;
+    }
+
+    .skills span, .project {
+      display: inline-block;
+      background: #ffffff;
+      padding: 12px 18px;
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .skills span:hover, .project:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      background: #00aaff;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      margin-top: 3rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .skills span, .project {
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Shashi Kumar</h1>
+    <p>AIML Engineer | Web Dev Enthusiast | Creative Problem Solver</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+  <p>I'm Shashi Kumar — an enthusiastic AIML Engineer with a creative edge and a data-driven mindset. I specialize in transforming real-world problems into smart solutions using the power of Python, C++, and modern web technologies. My academic journey in Computer Science with a specialization in AI & ML has empowered me to explore areas like machine learning, web development, and data visualization.
+  <br><br>
+  I’ve developed impactful projects, including a machine learning-based Credit Scoring & Risk Assessment system, and a responsive website that earned 2nd place in a competitive event. I also enjoy storytelling with tools like Power BI and Tableau, making data more insightful and interactive.
+  <br><br>
+  Beyond the screen, I'm passionate about cricket and personal growth through books. I believe in learning by doing and sharing — which is why I run a YouTube channel, <strong>SkillSetGo</strong>, to help others on their tech journey.
+  <br><br>
+  Let’s innovate together and shape a smarter tomorrow.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>Python</span>
+      <span>C++</span>
+      <span>Java</span>
+      <span>Web Development</span>
+      <span>Power BI</span>
+      <span>Tableau</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">💡 <strong>Credit Scoring & Risk Assessment</strong><br>A smart ML-based project analyzing financial data to help lenders make informed decisions.</div>
+    <div class="project">🌐 <strong>Responsive Website Design</strong><br>Created a stylish, user-friendly website that won 2nd place in a web development competition.</div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>GitHub: <a href="https://github.com/shashi-kumar62" target="_blank">github.com/shashi</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/" target="_blank">linkedin.com/in/shashi</a></p>
+    <p>YouTube (SkillSetGo): <a href="http://www.youtube.com/@setskillgo" target="_blank">@SkillSetGo</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Shashi Kumar. Designed with passion 💙</p>
+  </footer>
+</body>
+</html>
