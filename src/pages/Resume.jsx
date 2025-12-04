@@ -2,7 +2,7 @@ import { FaDownload } from 'react-icons/fa';
 
 const Resume = () => {
     // Use BASE_URL for correct path in GitHub Pages deployment
-    const resumeUrl = `${import.meta.env.BASE_URL}updated_reusme.pdf`;
+    const resumeUrl = "updated_reusme.pdf";
 
     return (
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 h-screen flex flex-col">
