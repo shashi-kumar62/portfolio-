@@ -1,8 +1,8 @@
 import { FaDownload } from 'react-icons/fa';
 
 const Resume = () => {
-    // In a real app, this would be an import or a URL to the PDF in public folder
-    const resumeUrl = "public/updated_reusme.pdf";
+    // Use BASE_URL for correct path in GitHub Pages deployment
+    const resumeUrl = `${import.meta.env.BASE_URL}updated_reusme.pdf`;
 
     return (
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 h-screen flex flex-col">
